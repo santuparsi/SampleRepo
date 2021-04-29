@@ -1,0 +1,2 @@
+Scaffold-DbContext "Server=.\SQLExpress;Database=SchoolDB;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models -force
+Scaffold-DbContext "Data Source=SANTU\MSSQLSERVER2019;Initial Catalog=Training1DB;Integrated Security=True" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
